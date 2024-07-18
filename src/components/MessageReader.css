@@ -1,0 +1,42 @@
+.container{
+    background-color: #45474B;
+    color: #FF4191;
+    padding: 0;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    display: fixed;
+    overflow: hidden;
+    align-items: left;
+    justify-content: left;
+}
+
+img{
+    width:150px;
+    height: 150px;
+    padding-top: 0%;
+}
+.messagecontainer{
+    width:90%;
+    background-color:#31363F ;
+    padding:20px;
+    border-color: #FF4191;
+    border-radius: 15px;
+    font-size:x-large;
+}
+.imgcontainer{
+ display: flex;
+ align-items:flex-end;
+ justify-content:flex-end;
+}
+.imgcontainer img{
+    width: 70px;
+    height: 70px;
+   padding: 25px;
+}
+.mesg{
+    padding: 15px;
+
+}

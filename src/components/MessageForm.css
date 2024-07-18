@@ -1,35 +1,101 @@
 .container{
-    background-color: #151515;
-    color: #FA7070;
+    background-color: #45474B;
+    color: #FF4191;
     padding: 0;
     height: 100vh;
     width:100%;
     display: flex;
     align-items: center;
     flex-direction: column;
+    display: fixed;
+    overflow: hidden;
+    
+}
+.linkcomp h1{
+    
+    font-size: 40px;
+    padding-left: 20px;
+    margin-left: 10px;
+    
+}
+.linkcomp p{
+    
+    padding: 20px
+
+}
+p{
+    color:#FBF8DD;
+    font-size: 20px;
 }
 .hero{
     text-align: left;
-    padding-top: 20%;
+    padding-top: 44px;
+    max-width: 800px;
+    
 }
 img{
     width:150px;
     height: 150px;
-    padding-top: 60%;
+    padding-top: 0%;
 }
 form{
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
+h1{
+    margin:auto;
+    padding: 10px;
+    font-size: 40px;
+}
+p{
+    margin:auto;
+    padding: 10px;
+    font-size: 30px;
+}
 textarea{
-    width: inherit;
-    min-height: 200px;
-    border-radius: 5px;
-    background: #ddd;
-    padding: 15px;
-    font-size: 20px;
-    font-weight: 400;
-    font-family: inherit;
-    resize: vertical;
+  resize: none;
+  height:100px;
+  color:#EEEDEB;
+  background-color: #2F3645;
+  font-weight: 300;
+  font-size:x-large;
+  width:80%;
+  border-color:#FF4191;
+  margin:4px;
+  padding:5px;
+ 
+  
+}
+textarea:focus{
+    border-color: #000000;
+    border:20px
+}
+.formfield{
+   width:90%;
+   background-color:#31363F ;
+   padding:20px;
+   border-color: #FF4191;
+   border-radius: 15px;
+   
+   
+}
+button{
+    padding:15px;
+    margin:15px;
+    height: 45px;
+    background-color: #FF4191;
+    color:#EEEDEB;
+    border-radius: 8px;
+    border:none;
+    font-size:larger;
+}
+button:hover{
+    border:2px ;
+    position: block;
+    background-color: #E90074;
+}
+.link div{
+  overflow-x: scroll;
 }

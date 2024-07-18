@@ -1,0 +1,34 @@
+.display-Link{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.display-Link p{
+    font-size: 25px;
+}
+.linkref{
+    background-color: aliceblue;
+    padding: 15px 10px;
+    border-radius: 10px;
+    color: black;
+    overflow-x: scroll;
+    
+}
+button{
+    margin-top: 10px;
+    padding: 10px 30px;
+    background-color: #FF4191;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.display-Link img{
+    height: 15px;
+    width:15px;
+}
+.copybutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
