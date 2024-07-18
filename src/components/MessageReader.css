@@ -12,7 +12,9 @@
     align-items: left;
     justify-content: left;
 }
-
+.hero{
+    width: 60%;
+}
 img{
     width:150px;
     height: 150px;
